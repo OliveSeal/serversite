@@ -47,48 +47,54 @@ img {
     padding-left: 170px;
 }
 
-    #navMeny {
-        background-color: #0A2647;
-        color: white;
-        text-align: center;
-        padding: 15px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
+#navMeny {
+    background-color: #0A2647;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
-    #navMeny a {
-        text-decoration: none;
-        color: white;
-        margin: 0 15px;
-        font-size: 18px;
-    }
+ #navMeny a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+ }
 
-    #navMeny a:hover {
-        text-decoration: underline;
-    }
+#navMeny a:hover {
+    text-decoration: underline;
+}
 
-    #paragraf1 {
-        padding-top: 25px;
-        margin: 20px;
-        padding: 20px;
-        background-color: #ffffff;
-        border-radius: 10px;
-    }
+#paragraf1 {
+    padding-top: 25px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
 
-    #image {
-        padding-top: 25px;
-        margin: 20px;
-        padding: 20px;
-        background-color: #ffffff;
-        border-radius: 10px;
-    }
+#image {
+    padding-top: 25px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
 
-    #paragraf2 {
-        margin: 20px;
-        padding: 20px;
-        background-color: #ffffff;
-        border-radius: 10px;
-    }
+#paragraf2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
 
+#paragraf3 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
