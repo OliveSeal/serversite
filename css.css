@@ -131,9 +131,9 @@ img {
 
 #video iframe {
     display: block;
-    margin: 0 auto; /* Center horizontally */
-    width: 80%; /* Adjust the width as needed */
-    height: 420px; /* Maintain the same height */
+    margin: 0 auto;
+    width: 80%;
+    height: 420px;
 }
 
 
