@@ -48,6 +48,7 @@ img {
 }
 
 #navMeny {
+    z-index: 10;
     background-color: #0A2647;
     color: white;
     text-align: center;
@@ -121,8 +122,19 @@ img {
 }
 
 #video {
+    text-align: center;
     margin: 20px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
 }
+
+#video iframe {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    width: 80%; /* Adjust the width as needed */
+    height: 420px; /* Maintain the same height */
+}
+
+
+
