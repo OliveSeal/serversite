@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="testcss.css">
+    <script src="test.js"></script>
 </head>
 <body>
 
@@ -14,9 +15,30 @@
         <a href="#">Ta Testen</a>
     </div>
 
-    <div id="paragraf">
-        <h1>Hiiiii :)</h1>
-    </div>
+    <div class="push"></div>
+
+    <div class="quiz-container">
+        <div class="question" id="question1">
+            <p>1. Kva er det man ofte kaller det ein server tibyr?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="tenester"> Tenester</label>
+                <label><input type="radio" name="q1" value="klient"> Klient</label>
+                <label><input type="radio" name="q1" value="fårespørsel"> Fårespørsel</label>
+            </div>
+        </div>
+
+        <div class="question" id="question2">
+            <p>2. Which planet is known as the Red Planet?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="venus"> Venus</label>
+                <label><input type="radio" name="q2" value="mars"> Mars</label>
+                <label><input type="radio" name="q2" value="jupiter"> Jupiter</label>
+            </div>
+        </div>
+
+        <button onclick="submitQuiz()">Submit Quiz</button>
+
+        <div id="result"></div>
 
 
 </body>
