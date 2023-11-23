@@ -40,6 +40,15 @@ function submitQuiz() {
         score += 1;
     }
 
+    var totalQuestions = 6;
+    var passPercentage = 80;
+    var passScore = (passPercentage / 100) * totalQuestions;
+
     var resultElement = document.getElementById("result");
-    resultElement.textContent = "Poeng: " + score + "/6";
+    resultElement.textContent = "Poeng: " + score + "/" + totalQuestions;
+
+    // Check if the score is below the pass threshold
+    if (score < passScore) {
+        alert("Beklager, du har ikke bestått. Prøv igjen!");
+    }
 }
